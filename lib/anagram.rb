@@ -9,7 +9,8 @@ class Anagram
   end 
   
   def match(array_of_anagrams)
-    
+    @word.split("").each_with_index do |letter, index|
+      
   end 
   
 end
