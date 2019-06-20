@@ -10,7 +10,8 @@ class Anagram
   
   def match(array_of_anagrams)
     binding.pry 
-    array_of_anagrams.split("").each_with_index do |letter, index|
+    array_of_anagrams.each_with_index do |anagram, index_of_anagram| 
+      anagram.split("").each_with_index do |letter, index|
       binding.pry 
     end 
   end 
