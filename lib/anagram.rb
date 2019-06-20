@@ -17,8 +17,7 @@ class Anagram
       else 
         nil
       end 
-    end.compac
-    array_of_anagrams.compact
+    end.compact
   end 
   
   
