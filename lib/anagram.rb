@@ -10,7 +10,7 @@ class Anagram
   end 
   
   def match(array_of_anagrams)
-    binding.pry 
+    #binding.pry 
     array_of_anagrams.each_with_index do |anagram, index_of_anagram| 
       if anagram.size == @word.size 
         anagram.split("").each_with_index do |letter, index|
