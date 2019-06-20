@@ -18,18 +18,7 @@ class Anagram
         nil
       end 
     end 
-    
-  end 
-      
-      
-      
-      if anagram.size == @word.size 
-        anagram.split("").each_with_index do |letter, index|
-          anagram.sort 
-        binding.pry 
-        end 
-      end 
-    end 
+    array_of_anagrams.compact
   end 
   
   
