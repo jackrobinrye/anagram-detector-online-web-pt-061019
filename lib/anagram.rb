@@ -11,9 +11,21 @@ class Anagram
   
   def match(array_of_anagrams)
     #binding.pry 
-    array_of_anagrams.each_with_index do |anagram, index_of_anagram| 
+    array_of_anagrams.collect do |anagram| 
+      if anagram.split("").sort == @word.split("").sort 
+        anagram 
+      else 
+        nil
+      end 
+    end 
+    
+  end 
+      
+      
+      
       if anagram.size == @word.size 
         anagram.split("").each_with_index do |letter, index|
+          anagram.sort 
         binding.pry 
         end 
       end 
