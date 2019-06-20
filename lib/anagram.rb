@@ -10,7 +10,6 @@ class Anagram
   end 
   
   def match(array_of_anagrams)
-    #binding.pry 
     array_of_anagrams.collect do |anagram| 
       if anagram.split("").sort == @word.split("").sort 
         anagram 
@@ -19,7 +18,6 @@ class Anagram
       end 
     end.compact
   end 
-  
   
 end
   
