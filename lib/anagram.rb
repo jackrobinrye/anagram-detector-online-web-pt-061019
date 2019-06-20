@@ -13,6 +13,7 @@ class Anagram
     array_of_anagrams.each_with_index do |anagram, index_of_anagram| 
       anagram.split("").each_with_index do |letter, index|
       binding.pry 
+      end 
     end 
   end 
   
