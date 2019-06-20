@@ -15,5 +15,7 @@ class Anagram
     end 
   end 
   
+  
+  match 
 end
   
