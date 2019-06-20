@@ -15,6 +15,7 @@ class Anagram
         anagram.split("").each_with_index do |letter, index|
         binding.pry 
         end 
+      end 
     end 
   end 
   
